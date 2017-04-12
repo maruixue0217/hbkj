@@ -1,0 +1,136 @@
+html,
+body,
+div,
+span,
+p,
+h1,
+h2,
+h3,
+b,
+i,
+a,
+em,
+input,
+form,
+img,
+ul,
+li,
+dl,
+dt {  
+    margin: 0;
+    padding: 0;
+    border: 0; 
+    outline: none;
+    font-style: normal;
+    box-sizing: border-box;  
+}
+ul,
+li,
+ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    display: inline-block;
+}
+header{
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 999;
+	background:#394158;
+}
+.header-1{
+    z-index: 999;
+    width: 1300px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.left-logo{
+    width: 147px;
+    float: left;
+}
+.left-logo img {
+    margin-top: 17px;
+    width: 100%;
+}
+.right-dianhua{
+   width: 255px;
+    height: 70px;
+    line-height: 70px;
+    float: right;
+}
+.right-dianhua h2 {
+    color: #fff;
+    float: right;
+}
+
+.right-dianhua h2 span {
+    font-size: 22px;
+    font-family: "黑体";
+    vertical-align: middle;
+}
+
+.right-dianhua h2 em {
+    background: url(../images/img_kf.png) no-repeat 0 0;
+    width: 22px;
+    height: 25px;
+    display: inline-block;
+    margin-top: 0px;
+    vertical-align: middle;
+}
+
+.right-dianhua h2 i {
+    background: url(../images/dh-tubiao.png) no-repeat 0 0;
+    width: 22px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -1px;
+}
+
+.right-danghang {
+    margin-left: 277px;
+    margin-right: 268px;
+}
+
+.right-danghang li {
+    float: left;
+    width: 107px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.right-danghang li a {
+    color: #FFF;
+    width: 66px;
+    text-align: center;
+    display: inline-block;
+}
+.nav{
+    margin-left: 277px;
+    margin-right: 268px;
+}
+.nav li{
+    width: 107px;
+    text-align: center;
+    display: inline-block;
+    padding-top:25px; 
+    font-size: 20px;
+} 
+
+.nav li a{
+   color: #fff;
+}
+.nav li a:hover{
+    color: #d710b5 !important;
+  }
+.cd-dhang {
+    display: none;
+}
